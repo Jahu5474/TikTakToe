@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height:100vh;
+}
+
+table, td{
+    border: 1px solid black;
+    border-collapse:collapse;
+    height:80px;
+    width: 250px;
+    text-align:center;
+    font-size:36px;
+}
